@@ -3,10 +3,10 @@ import './Navbar.css'
 
 function Navbar(props) {
     return (
-        <div class="navbar">
+        <div class="navbar-meu">
             <section>
-                <div class="container-navbar">
-                    <div class="sub-container-navbar">
+                <div class="container-navbar-meu">
+                    <div class="sub-container-navbar-meu">
                         <div>
                             <div>
                                 <a href="index.html">

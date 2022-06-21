@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    width: 100vw;
+}
+
+.subContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerCalendario{
+    display: flex;
+    justify-content: center;
+}
+
+.board, .list{
+    width: 900px;
+}
+
+.list, .card .title {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.list, .card .content {
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.card {
+    
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 10px;
+    margin: 20px;
+    width: 250px;
+    transition: all 0.3s ease-out;
+    display: inline-block;
+    flex-direction: column;
+}
+
+.card .title {
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    text-transform: uppercase;
+    padding: 0.4rem;
+}
+.card .content {
+    font-family: 'Kulim Park', sans-serif;
+    min-height: 10rem;
+    background-color: #DDD;
+    padding: 0.4rem;
+}

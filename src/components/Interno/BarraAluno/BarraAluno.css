@@ -1,0 +1,19 @@
+.barraAluno{
+    background-color: #DDD;
+    padding: 20px;
+    margin: 10px;
+    width: 90%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.barraAluno p {
+    color: #333;
+}
+
+.identificacao{
+    text-transform: uppercase;
+    font-weight: bold;
+}

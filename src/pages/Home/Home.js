@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from './Navbar/Navbar'
-import './Home/style.css'
-import Banner from './Home/Banner'
+import Navbar from '../../components/Navbar/Navbar'
+import './style.css'
+import Banner from './Banner'
 
 class AreaDoInicio extends React.Component{
     render(){

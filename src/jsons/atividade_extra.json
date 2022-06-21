@@ -1,0 +1,24 @@
+{
+    "0":{
+        "id": "1",
+        "disciplina": "Natação",
+        "horasSemanais": "20",
+        "nota": "8",
+        "aprovado": 1
+    },
+    "1":{
+        "id": "2",
+        "disciplina": "Computação",
+        "horasSemanais": "20",
+        "nota": "6",
+        "aprovado": 1
+    }, 
+    "2":{
+        "id": "3",
+        "disciplina": "Balé",
+        "horasSemanais": "20",
+        "nota": "4",
+        "aprovado": 0
+    }
+    
+}

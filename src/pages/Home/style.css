@@ -1,6 +1,7 @@
 .areaConteudo{
-    background: url('../images/bg1.jpg');
+    background: url('../../../public/bg1.jpg');
     height: 100vh;
+    background-size: cover;
 }
 
 .containerPrincipal{

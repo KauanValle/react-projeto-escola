@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from '../Navbar/Navbar'
+import Navbar from '../../components/Navbar/Navbar'
 import Banner from "../Home/Banner";
 
 class AreaDoAluno extends React.Component {
@@ -11,7 +11,7 @@ class AreaDoAluno extends React.Component {
                     titulo="AREA DO ALUNO" 
                     slogan="Aqui é a area do aluno da escola tijolinho do saber"
                     botao="Acessar area do aluno"
-                    referencia="/area-aluno"
+                    referencia="/interno-aluno"
                 />
             </div>
         )

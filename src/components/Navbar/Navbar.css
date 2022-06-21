@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,400&display=swap');
 
-.sub-container-navbar{
+.sub-container-navbar-meu{
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-family: 'Rubik', sans-serif;
 }
 
-.sub-container-navbar ul {
+.sub-container-navbar-meu ul {
     list-style: none;
     display: flex;
 }
 
-.sub-container-navbar li {
+.sub-container-navbar-meu li {
     margin: 10px;
 }
 
-.sub-container-navbar h1 {
+.sub-container-navbar-meu h1 {
     font-size: 28px;
     color: #333;
 }

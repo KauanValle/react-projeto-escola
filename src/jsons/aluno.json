@@ -1,44 +1,11 @@
 {
-    "id": "",
-    "nome": "",
-    "email": "",
-    "telefone": "",
-    "data_nascimento": "",
-    "aprovado": "",
+    "id": "1",
+    "nome": "Kauan Valle",
+    "email": "kauanvalle3@gmail.com",
+    "telefone": "(41) 998877722",
+    "data_nascimento": "06/09/2003",
     "provas": {
         "materia_prova": "",
         "data_prova": ""
-    },
-    "disciplinas": [
-        {
-            "nome_disciplina": "Artes",
-            "faltas_materia": "4",
-            "nota_total": "9.0"
-        },
-        {
-            "nome_disciplina": "Artes",
-            "faltas_materia": "4",
-            "nota_total": "9.0"
-        },
-        {
-            "nome_disciplina": "Artes",
-            "faltas_materia": "4",
-            "nota_total": "9.0"
-        },
-        {
-            "nome_disciplina": "Artes",
-            "faltas_materia": "4",
-            "nota_total": "9.0"
-        }
-    ],
-    "atividade_extra": [
-        {
-            "nome_atividade": "",
-            "nota_total": ""
-        },
-        {
-            "nome_atividade": "",
-            "nota_total": ""
-        }
-    ]
+    }
 }

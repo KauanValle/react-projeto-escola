@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+
 </head>
+
 <body>
     <div class="container">
         <div class="barraLateral">
@@ -21,19 +27,143 @@
                 </a>
             </div>
             <div class="menuIcon">
-                <img width="40" src="icons/book-clock-outline.png" alt="">
+                <a href="atividade_extra.html">
+                    <img width="40" src="icons/book-clock-outline.png" alt="">
+                </a>
             </div>
             <div class="menuIcon">
-                <img width="40" src="icons/chat.png" alt="">
+                <a href="mensagens.html">
+                    <img width="40" src="icons/chat.png" alt="">
+                </a>
             </div>
             <div class="menuIcon">
-                <img width="40" src="icons/book-open-variant.png" alt="">
+                <a href="materias.html">
+                    <img width="40" src="icons/book-open-variant.png" alt="">
+                </a>
             </div>
-            
-        </div>
-        <div class="subContainer">
 
         </div>
-    </div>
+
+        <div class="subContainer">
+            <div class="barraAluno">
+                <p>Nome: Kauan Valle | Ciclo/Ano - 3 série | Ano - 2022 | Total de faltas: 20</p>
+                <p class="identificacao">Calendário</p>
+            </div>
+
+            <div class="calendario">
+                <div class="containerCalendario">
+                    <div id="calendario"></div>
+                </div>
+
+
+                <div class="board" id="boardjsplain">
+                    <div class="list">
+                        <div class="card">
+                            <div class="title">
+                                Meu super card
+                            </div>
+                            <div class="content">
+                                Content
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="title">
+                                Meu super card
+                            </div>
+                            <div class="content">
+                                Content
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="title">
+                                Meu super card
+                            </div>
+                            <div class="content">
+                                Content
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="title">
+                                Meu super card
+                            </div>
+                            <div class="content">
+                                Content
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="title">
+                                Meu super card
+                            </div>
+                            <div class="content">
+                                Content
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="title">
+                                Meu super card
+                            </div>
+                            <div class="content">
+                                Content
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                $(function () {
+                    $("#calendario").datepicker();
+                });
+
+                $(function () {
+                    $("#calendario").datepicker({
+                        showOn: "button",
+                        buttonImage: "calendario.png",
+                        buttonImageOnly: true
+                    });
+                });
+
+                $(function () {
+                    $("#calendario").datepicker({
+                        showButtonPanel: true
+                    });
+                });
+
+                $(function () {
+                    $("#calendario").datepicker({ dateFormat: 'yy-mm-dd' });
+                });
+
+                $(function () {
+                    $("#calendario").datepicker({
+                        changeMonth: true,
+                        changeYear: true
+                    });
+                });
+
+                $(function () {
+                    $("#calendario").datepicker({
+                        showOtherMonths: true,
+                        selectOtherMonths: true
+                    });
+                });
+
+                $(function () {
+                    $("#calendario").datepicker({
+                        numberOfMonths: 3
+                    });
+                });
+
+                $(function () {
+                    $("#calendario").datepicker({
+                        dateFormat: 'dd/mm/yy',
+                        dayNames: ['Domingo', 'Segunda', 'Ter�a', 'Quarta', 'Quinta', 'Sexta', 'S�bado', 'Domingo'],
+                        dayNamesMin: ['D', 'S', 'T', 'Q', 'Q', 'S', 'S', 'D'],
+                        dayNamesShort: ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'S�b', 'Dom'],
+                        monthNames: ['Janeiro', 'Fevereiro', 'Mar�o', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
+                        monthNamesShort: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez']
+                    });
+                });
+            </script>
 </body>
+
 </html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../src/materia_aluno.js">
+
+    
+</head>
+<body>
+    <div class="container">
+        <div class="barraLateral">
+            <div class="menuIcon">
+                <a href="index.html">
+                    <img width="40" src="icons/account.png" alt="">
+                </a>
+            </div>
+            <div class="menuIcon">
+                <a href="calendario.html">
+                    <img width="40" src="icons/calendar.png" alt="">
+                </a>
+            </div>
+            <div class="menuIcon">
+                <a href="atividade_extra.html">
+                    <img width="40" src="icons/book-clock-outline.png" alt="">
+                </a>
+            </div>
+            <div class="menuIcon">
+                <a href="mensagens.html">
+                    <img width="40" src="icons/chat.png" alt="">
+                </a>
+            </div>
+            <div class="menuIcon">
+                <a href="materias.html">
+                    <img width="40" src="icons/book-open-variant.png" alt="">
+                </a>
+            </div>
+        </div>
+
+
+
+        <div class="subContainer">
+            <!-- <h2>Portal do aluno</h2> -->
+            <div class="barraAluno">
+                <p>Nome: Kauan Valle | Ciclo/Ano - 3 série | Ano - 2022 | Total de faltas: 20</p>
+                <p class="identificacao">Matérias</p>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <th>Materia</th>
+                        <th>Conteudo</th>
+                    </tr>
+                    <tr>
+                        <td>Matematica</td>
+                        <td><button class="botao"><a target="_blank" href='../html/materias/matematica.html'>Entrar</a> </button></td>
+                    </tr>
+                    <tr>
+                        <td>Artes</td>
+                        <td><button class="botao"><a target="_blank" href='../html/materias/artes.html'>Entrar</a> </button></td>
+                    </tr>
+                    <tr>
+                        <td>Ed Fisica</td>
+                        <td><button class="botao"><a target="_blank" href='../html/materias/edFisica.html'>Entrar</a> </button></td>
+                    </tr>
+                    <tr>
+                        <td>Ciencias</td>
+                        <td><button class="botao"><a target="_blank" href='../html/materias/ciencias.html'>Entrar</a> </button></td>
+                    </tr>
+                    <tr>
+                        <td>Ingles</td>
+                        <td><button class="botao"><a target="_blank" href='../html/materias/ingles.html'>Entrar</a> </button></td>
+                    </tr>
+                    <tr>
+                        <td>Portugues</td>
+                        <td><button class="botao"><a target="_blank" href='../html/materias/portugues.html'>Entrar</a> </button></td>
+                    </tr>
+                    <tr>
+                        <td>Ed Financeira</td>
+                        <td><button class="botao" ><a target="_blank" href='../html/materias/edFinanceira.html'>Entrar</a> </button></td>
+                    </tr>
+                    <tr>
+                        <td>Computacao</td>
+                        <td><button class="botao" ><a target="_blank" href='../html/materias/computacao.html'>Entrar</a> </button></td>
+                    </tr>
+                </table>
+                <table class="addMateria">
+                    <tr>
+                        <th>Adicionar</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>Informe a materia: </td>
+                        <td> 
+                            <div class="cardMateria">
+                                <div class="lineImputMateria">
+                                    <input class="input" type="text" id="produto" placeholder="Nome da materia a ser adicionada">
+                                </div>
+                            </div >
+                            <button class="botao" onclick="produto.salvar()">Salvar</button>
+                            <button class="botao" onclick="produto.cancelar()">Cancelar</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+      
+
+
+        </div>
+    </div>
+</body>
+</html>

@@ -47,7 +47,7 @@ class Materias extends React.Component {
                 <BarraLateral />
                 <div class="subContainer">
                     <BarraAluno />
-                    <div>
+                    <div class="containerMaterias">
                         <table>
                             <tr>
                                 <th>Código</th>
@@ -58,6 +58,7 @@ class Materias extends React.Component {
                             </tr>
                             {rows}
                         </table>
+                        <a href="/interno-materias-atividade" class="myButton">Visualizar atividades das matérias</a>
                     </div>
                 </div>
             </div>

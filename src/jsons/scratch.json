@@ -1,0 +1,73 @@
+{
+    "nomeMateria": "Ed Fisica",
+    "atividades": [
+        {
+            "tituloAtvd": "Atividade 01",
+            "entrega": "22/06/2022"
+        },
+        {
+            "tituloAtvd": "Atividade 02",
+            "entrega": "30/06/2022"
+        }
+    ]
+},
+{
+    "nomeMateria": "Ingles",
+    "atividades": [
+        {
+            "tituloAtvd": "Atividade 01",
+            "entrega": "22/06/2022"
+        }
+    ]
+},
+{
+    "nomeMateria": "Portugues",
+    "atividades": [
+        {
+            "tituloAtvd": "Atividade 01",
+            "entrega": "22/06/2022"
+        },
+        {
+            "tituloAtvd": "Atividade 02",
+            "entrega": "30/06/2022"
+        },
+        {
+            "tituloAtvd": "Atividade 03",
+            "entrega": "06/07/2022"
+        }
+    ]
+},
+{
+    "nomeMateria": "Ed Financeira",
+    "atividades": [
+        {
+            "tituloAtvd": "Atividade 01",
+            "entrega": "22/06/2022"
+        },
+        {
+            "tituloAtvd": "Atividade 02",
+            "entrega": "30/06/2022"
+        }
+    ]
+},
+{
+    "nomeMateria": "Computacao",
+    "atividades": [
+        {
+            "tituloAtvd": "Atividade 01",
+            "entrega": "22/06/2022"
+        },
+        {
+            "tituloAtvd": "Atividade 02",
+            "entrega": "30/06/2022"
+        },
+        {
+            "tituloAtvd": "Atividade 03",
+            "entrega": "06/07/2022"
+        }
+        ,{
+            "tituloAtvd": "Atividade 04",
+            "entrega": "15/07/2022"
+        }
+    ]
+}

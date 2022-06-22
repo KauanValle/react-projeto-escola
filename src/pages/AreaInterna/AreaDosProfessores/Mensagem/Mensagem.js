@@ -1,13 +1,12 @@
 import React from "react";
-import BarraLateral from "../../../components/Interno/BarraLateral/BarraLateral";
-import BarraAluno from "../../../components/Interno/BarraAluno/BarraAluno";
-import Formulario from "../../../components/Interno/Formulario/Formulario";
+import BarraLateralProfessor from "../../../../components/Interno/BarraLateralProfessor/BarraLateralProfessor";
+import BarraAluno from "../../../../components/Interno/BarraAluno/BarraAluno";
+import Formulario from "../../../../components/Interno/Formulario/Formulario";
 import './Mensagem.css';
 
 class Mensagem extends React.Component {
-
-    getDados(){
-        return require('../../../jsons/mensagem.json')
+    getDados() {
+        return require('../../../../jsons/Professor/mensagem.json')
     }
 
     render() {
@@ -18,7 +17,7 @@ class Mensagem extends React.Component {
             rows.push(
                 <tr>
                     <td>{dados[i].mensagemRecebida}</td>
-                    <td>{dados[i].materia}</td>
+                    <td>{dados[i].aluno}</td>
                     <td>{dados[i].situacao}</td>
                 </tr>
             )
@@ -26,14 +25,14 @@ class Mensagem extends React.Component {
 
         return (
             <div class="container">
-                <BarraLateral />
+                <BarraLateralProfessor />
                 <div class="subContainer">
                     <BarraAluno />
                     <div>
                         <table>
                             <tr>
                                 <th>Mensagens Recebidas</th>
-                                <th>Disciplina</th>
+                                <th>Aluno</th>
                                 <th>Situação</th>
                             </tr>
                             {rows}
@@ -45,9 +44,9 @@ class Mensagem extends React.Component {
                     </div>
                 </div>
             </div>
-
         )
     }
+
 }
 
 export default Mensagem;

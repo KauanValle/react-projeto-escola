@@ -1,0 +1,26 @@
+[
+    {
+        "mensagemRecebida": "2",
+        "materia": "Matematica",
+        "nome": "Kauan Valle",
+        "situacao": "Visualizada"
+    },
+    {
+        "mensagemRecebida": "1",
+        "materia": "Portugues",
+        "nome": "Thais Possamai",
+        "situacao": "Visualizada"
+    },
+    {
+        "mensagemRecebida": "3",
+        "materia": "Ed Fisica",
+        "nome": "Evelin Valente",
+        "situacao": "Não visualizada"
+    },
+    {
+        "mensagemRecebida": "1",
+        "materia": "Artes",
+        "nome": "Joao Guilherme",
+        "situacao": "Não visualizada"
+    }
+]

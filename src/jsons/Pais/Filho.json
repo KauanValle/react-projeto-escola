@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1",
+        "nome": "Kauan Valle",
+        "email": "kauanvalle3@gmail.com",
+        "telefone": "(41) 998877722",
+        "nascimento": "06/09/2003"
+    },
+    {
+        "id": "2",
+        "nome": "Thais Possamai",
+        "email": "thaispossamai@gmail.com",
+        "telefone": "(41) 988752341",
+        "nascimento": "14/02/1998"
+    }
+]

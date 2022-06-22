@@ -1,0 +1,23 @@
+[
+    {
+        "nomeMateria": "Matematica",
+        "atividade": "Atividade 01",
+        "prazo": "22/06/2022"
+    },
+    {
+        "nomeMateria": "Matematica",
+        "atividade": "Atividade 02",
+        "prazo": "15/06/2022"
+    },
+    {
+        "nomeMateria": "Artes",
+        "atividade": "Atividade 01",
+        "prazo": "30/07/2022"
+    },
+    {
+        "nomeMateria": "Ed Fisica",
+        "atividade": "Atividade 01",
+        "prazo": "02/08/2022"
+    }
+    
+]

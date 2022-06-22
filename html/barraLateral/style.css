@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.barraLateral{ 
+    background-color: rgb(25, 25, 46);
+    height: 100vh;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.menuIcon{
+    display: flex;
+    align-items: center;
+}
+
+.menuIcon p {
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Aluno */
+
+.container{
+    width: 100vw;
+    display: flex;
+}
+.subContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #EEE;
+}
+
+.areaPrincipal{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flecha{
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+}
+
+.informacoes{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.containerInformacoes{
+    margin-top: 50px;
+}
+
+.informacoes p{
+    font-weight: bold;
+}
+
+.imgPrincipal{
+    margin-top: 70px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 25px #bbb;
+}
+
+/* Materias */
+
+th, td {
+    text-align: center;
+    padding: 20px;
+}

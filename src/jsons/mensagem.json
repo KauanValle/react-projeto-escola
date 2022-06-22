@@ -1,0 +1,17 @@
+[
+    {
+        "mensagemRecebida": "2",
+        "materia": "Matematica",
+        "situacao": "Visualizada"
+    },
+    {
+        "mensagemRecebida": "1",
+        "materia": "Portugues",
+        "situacao": "Visualizada"
+    },
+    {
+        "mensagemRecebida": "3",
+        "materia": "Ed Fisica",
+        "situacao": "Não visualizada"
+    }
+]

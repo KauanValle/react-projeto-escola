@@ -1,0 +1,36 @@
+.input{
+    
+    margin: 20px 10px;
+    font-size: 20px;
+    width: 350px;
+    text-align: center;
+    height: 30px;
+    border: none;
+    background-color: #EEE;
+    border-bottom: 1px solid black;
+}
+
+
+.tituloForm{
+    color: #333;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.input:focus {
+    border-bottom: 1px solid rgb(44, 153, 255);
+    outline: 0;
+}
+
+.containerForm{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea{
+    padding: 10px;
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px #BBB;
+}

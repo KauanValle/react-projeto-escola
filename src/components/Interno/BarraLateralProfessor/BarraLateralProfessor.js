@@ -1,37 +1,39 @@
 import React from "react";
-import './BarraLateral.css';
 
-
+import alunosIcon from '../../icons/account-multiple.png'
+import calendarIcon from '../../icons/calendar.png';
 import accountIcon from '../../icons/user.webp';
-import bookClockIcon from '../../icons/book-clock-outline.png';
 import chatIcon from '../../icons/chat.png';
-import bookOpenIcon from '../../icons/book-open-variant.png';
 import leaveIcon from '../../icons/arrow-left-box.png';
-function BarraLateral() {
+
+function BarraLateralProfessor() {
     return (
         <div class="barraLateral">
             <div>
-                <a href="/interno-aluno">
+                <a href="/interno-professor-alunos">
                     <img src={accountIcon} width="100" alt="" />
                 </a>
             </div>
             <div>
-                <a href="/interno-extra">
+
+                <a href="/interno-professor-alunos">
                     <div class="menuIcon">
-                        <img width="40" src={bookClockIcon} alt="" />
-                        <p>Atividade Extra</p>
+                        <img width="40" src={alunosIcon} alt="" />
+                        <p>Alunos</p>
                     </div>
                 </a>
-                <a href="/interno-mensagem">
+
+                <a href="/interno-professor-atividades">
+                    <div class="menuIcon">
+                        <img width="40" src={calendarIcon} alt="" />
+                        <p>Calendário</p>
+                    </div>
+                </a>
+
+                <a href="/interno-professor-mensagem">
                     <div class="menuIcon">
                         <img width="40" src={chatIcon} alt="" />
                         <p>Chat</p>
-                    </div>
-                </a>
-                <a href="/interno-materias">
-                    <div class="menuIcon">
-                        <img width="40" src={bookOpenIcon} alt="" />
-                        <p>Matérias</p>
                     </div>
                 </a>
                 <a href="/">
@@ -45,4 +47,4 @@ function BarraLateral() {
     )
 }
 
-export default BarraLateral;
+export default BarraLateralProfessor;

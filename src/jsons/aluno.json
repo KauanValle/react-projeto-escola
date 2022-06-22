@@ -3,9 +3,5 @@
     "nome": "Kauan Valle",
     "email": "kauanvalle3@gmail.com",
     "telefone": "(41) 998877722",
-    "data_nascimento": "06/09/2003",
-    "provas": {
-        "materia_prova": "",
-        "data_prova": ""
-    }
+    "data_nascimento": "06/09/2003"
 }

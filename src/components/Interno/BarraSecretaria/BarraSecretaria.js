@@ -1,11 +1,10 @@
 import React from "react";
-import './BarraLateral.css';
+import './BarraSecretaria.css';
 
 
 import accountIcon from '../../icons/user.webp';
-import bookClockIcon from '../../icons/book-clock-outline.png';
+import pessoaIcon from '../../icons/account-multiple.png';
 import chatIcon from '../../icons/chat.png';
-import bookOpenIcon from '../../icons/book-open-variant.png';
 import leaveIcon from '../../icons/arrow-left-box.png';
 function BarraLateral() {
     return (
@@ -18,22 +17,18 @@ function BarraLateral() {
             <div>
                 <a href="/interno-extra">
                     <div class="menuIcon">
-                        <img width="40" src={bookClockIcon} alt="" />
-                        <p>Atividade Extra</p>
+                        <img width="40" src={pessoaIcon} alt="" />
+                        <p>Alunos</p>
                     </div>
                 </a>
+                
                 <a href="/interno-mensagem">
                     <div class="menuIcon">
                         <img width="40" src={chatIcon} alt="" />
                         <p>Chat</p>
                     </div>
                 </a>
-                <a href="/interno-materias">
-                    <div class="menuIcon">
-                        <img width="40" src={bookOpenIcon} alt="" />
-                        <p>Matérias</p>
-                    </div>
-                </a>
+               
                 <a href="/">
                     <div class="menuIcon">
                         <img width="40" src={leaveIcon} alt="" />

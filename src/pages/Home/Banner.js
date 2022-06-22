@@ -6,8 +6,8 @@ function Banner(props) {
             <div class="containerPrincipal">
                 <div class="containerTituloPrincipal">
                     <div class="">
-                        <h2>{props.titulo}</h2>
-                        <p>{props.slogan}</p>
+                        <h2 class="titulo">{props.titulo}</h2>
+                        <p class="slogan">{props.slogan}</p>
                         
                         {props.botao &&
                             <a href={props.referencia}><button class="botao">{props.botao} 	&gt;&gt; </button></a>

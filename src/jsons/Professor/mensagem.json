@@ -1,0 +1,27 @@
+[
+    {
+        "mensagemRecebida": "2",
+        "aluno": "Kauan Valle",
+        "situacao": "Visualizada"
+    },
+    {
+        "mensagemRecebida": "1",
+        "aluno": "Lewy Caron",
+        "situacao": "Visualizada"
+    },
+    {
+        "mensagemRecebida": "3",
+        "aluno": "Evelin Valente",
+        "situacao": "Não visualizada"
+    },
+    {
+        "mensagemRecebida": "5",
+        "aluno": "Thais Possamai",
+        "situacao": "Visualizada"
+    },
+    {
+        "mensagemRecebida": "1",
+        "aluno": "Joao Guilherme",
+        "situacao": "Não visualizada"
+    }
+]

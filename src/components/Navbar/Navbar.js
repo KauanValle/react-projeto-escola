@@ -22,6 +22,7 @@ function Navbar(props) {
                                     <li><a href="/area-aluno" class={props.select === 'aluno' ? 'select' : 'notselect'}>AREA DO ALUNO</a></li>
                                     <li><a href="/area-professor" class={props.select === 'professor' ? 'select' : 'notselect'}>AREA DO PROFESSOR</a></li>
                                     <li><a href="/area-pais" class={props.select === 'pais' ? 'select' : 'notselect'}>AREA DOS PAIS</a></li>
+                                    <li><a href="/secretaria" class={props.select === 'secretaria' ? 'select' : 'notselect'}>SECRETARIA</a></li>
                                 </ul>
                             </div>
                         </div>

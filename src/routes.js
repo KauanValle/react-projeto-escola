@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Home from './pages/Home/Home';
 import AreaDoAluno from './pages/AreaDoAluno/AreaDoAluno';
+import AreaDosPais from './pages/AreaDosPais/AreaDosPais';
 import Login from './components/Login/Login'
 import AreaDoAlunoInterno from './pages/AreaInterna/AreaDoAluno/AreaDoAlunoInterno';
 import AreaDoProfessor from './pages/AreaDoProfessor/AreaDoProfessor';
@@ -16,7 +17,10 @@ import MensagemProfessor from './pages/AreaInterna/AreaDosProfessores/Mensagem/M
 import CadastroAtividades from './pages/AreaInterna/AreaDosProfessores/CadastroAtividades/CadastroAtividades';
 import Secretaria from './pages/AreaInterna/Secretaria/Secretaria';
 import AreaSecretaria from './pages/Secretarias/Secretaria'
-import InformacoesAlunoSecret from './pages/AreaInterna/AreaDosProfessores/Alunos/InformacoesAluno';
+import InformacoesAlunoSecret from './pages/AreaInterna/Secretaria/InformacoesAlunos/InformacoesAluno';
+import MensagemSecret from './pages/AreaInterna/Secretaria/Mensagem/Mensagem';
+import AreaDosPaisInterno from './pages/AreaInterna/AreaDosPais/AreaDosPais';
+import Filho from './pages/AreaInterna/AreaDosPais/Filho/Filho';
 
 function Rotas(){
     return (
@@ -25,7 +29,7 @@ function Rotas(){
                 <Route path="/"  element={ <Home/> } exact />
                 <Route path="/area-aluno" element={<AreaDoAluno/>} />
                 <Route path="/area-professor" element={<AreaDoProfessor/>} />
-                <Route path="/area-pais" element={<AreaDoAluno/>} />
+                <Route path="/area-pais" element={<AreaDosPais/>} />
                 <Route path="/secretaria" element={<AreaSecretaria/>} />
                 <Route path="/login" element={<Login/>} />
                 <Route path="/interno-aluno" element={<AreaDoAlunoInterno/>} />
@@ -39,6 +43,9 @@ function Rotas(){
                 <Route path="/interno-professor-atividades" element={<CadastroAtividades/>} />
                 <Route path="/interno-secretaria" element={<Secretaria/>} />
                 <Route path="/interno-secretaria-informacoes" element={<InformacoesAlunoSecret/>} />
+                <Route path="/interno-secretaria-mensagem" element={<MensagemSecret/>} />
+                <Route path="/interno-pais" element={<AreaDosPaisInterno/>} />
+                <Route path="/interno-pais-filho" element={<Filho/>} />
 
             </Routes>
         </BrowserRouter>

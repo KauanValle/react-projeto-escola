@@ -1,5 +1,5 @@
 import React from "react";
-import BarraLateralProfessor from "../../../../components/Interno/BarraLateralProfessor/BarraLateralProfessor";
+import BarraLateralSecretaria from "../../../../components/Interno/BarraSecretaria/BarraSecretaria";
 import BarraAluno from "../../../../components/Interno/BarraAluno/BarraAluno";
 import './InformacoesAluno.css';
 
@@ -13,7 +13,7 @@ class InformacoesAluno extends React.Component{
 
         return(
             <div class="container">
-                <BarraLateralProfessor/>
+                <BarraLateralSecretaria/>
                 <div class="subContainer">
                     <BarraAluno/>
                     <div class="areaPrincipal">
@@ -30,23 +30,23 @@ class InformacoesAluno extends React.Component{
                             </tr>
                             <tr>
                                 <td>1 Bimestre</td>
-                                <td><input></input></td>
-                                <td><input></input></td>
+                                <td><input value={8}></input></td>
+                                <td><input value={5}></input></td>
                             </tr>
                             <tr>
                                 <td>2 Bimestre</td>
-                                <td><input></input></td>
-                                <td><input></input></td>
+                                <td><input value={10}></input></td>
+                                <td><input value={0}></input></td>
                             </tr>
                             <tr>
                                 <td>3 Bimestre</td>
-                                <td><input></input></td>
-                                <td><input></input></td>
+                                <td><input value={7}></input></td>
+                                <td><input value={2}></input></td>
                             </tr>
                             <tr>
                                 <td>4 Bimestre</td>
-                                <td><input></input></td>
-                                <td><input></input></td>
+                                <td><input value={9}></input></td>
+                                <td><input value={0}></input></td>
                             </tr>
                         </table>
 
@@ -75,6 +75,10 @@ class InformacoesAluno extends React.Component{
                             <div class="informacoes">
                                 <span class="flecha">=={'>'}</span>
                                 <p>Telefone:  {dados.telefone}</p>
+                            </div>
+                            <div class="informacoes">
+                                <span class="flecha">=={'>'}</span>
+                                <p>Aprovado:  {dados.aprovado}</p>
                             </div>
                             </div>
                         </div>
